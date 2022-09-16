@@ -18,7 +18,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Get tags
-       run: git fetch --tags origin
+      run: git fetch --tags origin
     - name: Log in to GHCR
       uses: docker/login-action@v1
       with:
